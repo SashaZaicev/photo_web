@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/photo_web/static/css/main.e563f821.chunk.css",
+    "main.js": "/photo_web/static/js/main.f002b10e.chunk.js",
+    "main.js.map": "/photo_web/static/js/main.f002b10e.chunk.js.map",
+    "runtime-main.js": "/photo_web/static/js/runtime-main.5bb3ab0f.js",
+    "runtime-main.js.map": "/photo_web/static/js/runtime-main.5bb3ab0f.js.map",
+    "static/js/2.b29f3096.chunk.js": "/photo_web/static/js/2.b29f3096.chunk.js",
+    "static/js/2.b29f3096.chunk.js.map": "/photo_web/static/js/2.b29f3096.chunk.js.map",
+    "static/js/3.dc01332d.chunk.js": "/photo_web/static/js/3.dc01332d.chunk.js",
+    "static/js/3.dc01332d.chunk.js.map": "/photo_web/static/js/3.dc01332d.chunk.js.map",
+    "index.html": "/photo_web/index.html",
+    "static/css/main.e563f821.chunk.css.map": "/photo_web/static/css/main.e563f821.chunk.css.map",
+    "static/js/2.b29f3096.chunk.js.LICENSE.txt": "/photo_web/static/js/2.b29f3096.chunk.js.LICENSE.txt",
+    "static/media/aboutMe.5319d0d4.jpg": "/photo_web/static/media/aboutMe.5319d0d4.jpg",
+    "static/media/camera.6f444a62.png": "/photo_web/static/media/camera.6f444a62.png",
+    "static/media/camera2.b46d82d8.svg": "/photo_web/static/media/camera2.b46d82d8.svg",
+    "static/media/facebook.e149981a.svg": "/photo_web/static/media/facebook.e149981a.svg",
+    "static/media/img1.46a5b4a4.jpg": "/photo_web/static/media/img1.46a5b4a4.jpg",
+    "static/media/img2.b33c30f7.jpg": "/photo_web/static/media/img2.b33c30f7.jpg",
+    "static/media/img3.acd16681.jpg": "/photo_web/static/media/img3.acd16681.jpg",
+    "static/media/linkedin.1b0c0a42.svg": "/photo_web/static/media/linkedin.1b0c0a42.svg",
+    "static/media/show1.fcc28945.jpg": "/photo_web/static/media/show1.fcc28945.jpg",
+    "static/media/show2.ae1fe838.jpg": "/photo_web/static/media/show2.ae1fe838.jpg",
+    "static/media/show3.a78c0c9f.jpg": "/photo_web/static/media/show3.a78c0c9f.jpg",
+    "static/media/telegram2.9fc32b6a.svg": "/photo_web/static/media/telegram2.9fc32b6a.svg",
+    "static/media/vk.33e7f5db.svg": "/photo_web/static/media/vk.33e7f5db.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bb3ab0f.js",
+    "static/js/2.b29f3096.chunk.js",
+    "static/css/main.e563f821.chunk.css",
+    "static/js/main.f002b10e.chunk.js"
+  ]
+}
