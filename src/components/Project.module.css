@@ -6,7 +6,8 @@
     background: #000000;
     display: grid;
     /*height: 1500px;*/
-    grid-template-columns: 327px 327px 327px;
+    /*grid-template-columns: 327px 327px 327px;*/
+    grid-template-columns: repeat(3, 327px);
     /*grid-template-rows: 327px 327px 327px 327px 327px;*/
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -79,3 +80,17 @@
 /*    width: 100px;*/
 /*    height: 100px;*/
 /*}*/
+
+/*adaptation*/
+@media (max-width: 1100px) {
+    .gridContainer {
+        grid-template-columns: repeat(auto-fit, minmax(327px, 327px));
+    }
+}
+
+@media (max-width: 370px) {
+    .holder img {
+        width: 90%;
+        height: 90%;
+    }
+}

@@ -81,7 +81,16 @@
 .socialIcon img {
     width: 60%;
 }
+
 .center {
     display: flex;
     text-decoration: none;
+}
+
+/*adaptation*/
+
+@media (max-width: 680px) {
+    .socialBlock {
+        display: none;
+    }
 }

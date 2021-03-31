@@ -139,3 +139,29 @@
     border-top-style: solid;
     border-top-color: rgba(148, 148, 148, 0.5);
 }
+
+
+/*adaptation*/
+
+@media (max-width: 850px) {
+    .contactsMain {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .contactsBody {
+        height: 400px;
+    }
+
+    .socialBlock {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .socialBlock div {
+        margin: 10px;
+    }
+}
