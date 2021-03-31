@@ -1,0 +1,81 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+.gridContainer {
+    background: #000000;
+    display: grid;
+    /*height: 1500px;*/
+    grid-template-columns: 327px 327px 327px;
+    /*grid-template-rows: 327px 327px 327px 327px 327px;*/
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: space-around;
+}
+
+.gridContainer > div {
+    border: 1px solid;
+    width: 327px;
+    height: 327px;
+    margin: 0;
+    padding: 0;
+}
+
+.showContainer:hover {
+    background-color: #000000;
+}
+
+
+/*блок*/
+.holder {
+    position: relative;
+    width: 327px;
+    height: 327px;
+    background: #000000;
+    margin: 100px auto;
+}
+
+.holder img {
+    width: 327px;
+    height: 327px;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    /*background:rgba(255,255,255, 0.7);*/
+    padding: 5px;
+    display: none;
+    width: 327px;
+    height: 327px;
+    border: 1px solid white;
+    background-color: #000000;
+}
+
+.block a,
+.block p {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.holder:hover .block {
+    display: block;
+}
+
+.secondBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 35%;*/
+    margin-top: 45%;
+}
+
+/*.secondBlock div {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/
