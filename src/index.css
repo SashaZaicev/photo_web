@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#bodyContainer {
+    overflow: auto !important;
+}
+
 body {
     background-color: black;
     margin: 0;

@@ -2,6 +2,7 @@ import React from 'react';
 import s from "./Contacts.module.css"
 import SimpleMap from './SimpleMap';
 import phone from "../img/facebook.svg"
+import EmailForm from './emailJs/EmailForm';
 
 const Contacts = () => {
 
@@ -56,7 +57,7 @@ const Contacts = () => {
                     </div>
                 </div>
             </div>
-
+            <EmailForm/>
         </div>
     );
 };

@@ -1,0 +1,71 @@
+.containerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contactForm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px white solid;
+    padding: 5px;
+    width: 45%;
+}
+
+.firstBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.firstBlock input {
+    margin: 5px;
+}
+
+.secondBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondBlock textarea {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btnSend {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: 10px;
+}
+
+.btnSend input:hover {
+    font-weight: bold;
+}
+
+
+/*adaptation*/
+
+@media (max-width: 960px) {
+    .contactForm {
+        width: 60%;
+        display: block;
+    }
+
+    .contactForm input {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 405px) {
+    .secondBlock {
+        display: block;
+    }
+}
